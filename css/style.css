@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+/*general*/
+:root{
+      --grey: #878787;
+      --jak: "Plus Jakarta Sans", sans-serif;
+      --green: #0CBBC7
+}
+*{
+
+    color: var(--grey);
+    font-family: var(--jak);
+}
+
+/*nav*/
+.m_nav{
+    padding: 10px 110px 0;
+    color: black;
+}
+.m_nav :hover{
+    color: var(--green)
+}
+.btn1{
+    border: solid 1px var(--green);
+    color: var(--green);
+    width: 110px;
+}
+.btn1 :hover{
+    background-color: var(--green);
+}
+
+
+
+/*banner*/
+.banner{
+padding-bottom: 120px;
+}
+.banner1{
+    padding-top: 50px;
+    background-color: #defaf7;
+    overflow: hidden;
+}
+.head1{
+text-align: center;
+color: black;
+font-weight: 700;
+}
+.paragraph1{
+    text-align: center;
+}
+.ppadding1{
+    padding-top: 20px;
+}
+.btn2{
+background-color: var(--green);
+color: white;
+padding: 10px;
+}
+.btnpadding{
+    padding-top: 20px;
+}
+.b_img{
+width: 100%;
+}
+
+/*promise start*/
+.promise{
+    padding: 0 160px 120px;
+}
+.p_img{
+
+}
+.our1{
+    background-color: #defaf7;
+    color: var(--green);
+    font-size: 11px;
+}
+.our{
+    margin-bottom: 20px;
+}
+.p_head{
+padding-bottom: 20px;
+}
+.p_h1{
+    font-size: 33px;
+    color: black;
+    font-weight: 700;
+}
+.tool{
+    color: black;
+    font-weight: 400;
+}
+.promise2{
+    margin-top: 70px;
+}
+.p_par{
+    padding-bottom: 20px;
+}
+.p_img{
+
+}
+/*promise end*/
+/*award start*/
+.a_h1{
+    color: black;
+    font-weight: 700;
+    font-size: 33px;
+}
+.a_p{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+.a_item{
+    padding: 60px;
+    background-color: #defaf7;
+    border: solid 25px white;
+}
+.award{
+    padding: 120px 0 120px 0;
+}
+/*award end*/
+
+/*solution start*/
+.solution2{
+    padding-top: 150px;
+}
+.solution{
+    padding-bottom: 120px;
+}
+.btn3{
+    padding-bottom: 10px;
+}
+.btn4{
+    border: solid 1px var(--green);
+    color: var(--green);
+}
+/*solution end*/
+
+/* footer bottom */
+footer{
+	background-color: black;
+	padding-bottom: 100px;
+}
+.f_address{
+	margin-bottom: 0;
+	color: #fff;
+	text-align: center;
+}
+.f_link{
+	text-align: center;
+}
+.f_link ul li a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .3s liner;
+}
+.f_link ul li a:hover{
+	border-bottom: 1px solid #fff;
+}
+.foot{
+    padding-bottom: 50px;
+}
+/* footer end */
